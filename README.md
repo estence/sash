@@ -8,5 +8,5 @@
     If unfamiliar with editing files in terminal, open file with textEditor: `open -a TextEdit ~/.zshrc`
 
 ## Functions
-# useCaseImplementation
+### useCaseImplementation
 Assists manual implementation facets of Use Case templates through series of prompts and redirects with relevant examples.
