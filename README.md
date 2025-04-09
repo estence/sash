@@ -10,3 +10,5 @@
 ## Functions
 ### useCaseImplementation
 Assists manual implementation facets of Use Case templates through series of prompts and redirects with relevant examples.
+
+To use, ghost into relevant account. Then execute script by typing `useCaseImplementation` into command line.
