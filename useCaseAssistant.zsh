@@ -68,7 +68,7 @@ open -n -a "Google Chrome" --args "https://www.notion.so/vitally/Risk-Object-Lay
 # Check Rick Object Layout updated
 echo 'Finished updating Risk object layout? Press any key to proceed: '
 read -q cont
-echo 'Update enrollment frequency for ❤️ Health & Risk Process playbook\n1. Open playbook and select trigger tile\n2. Select PLAYBOOK ENROLLMENT FREQUENCY radio option '\"'At most 1 time every 7 days'\"'\n3. Update to every 90 days\n4. Apply & Save'
+echo '\nUpdate enrollment frequency for ❤️ Health & Risk Process playbook\n1. Open playbook and select trigger tile\n2. Select PLAYBOOK ENROLLMENT FREQUENCY radio option '\"'At most 1 time every 7 days'\"'\n3. Update to every 90 days\n4. Apply & Save\n'
 
 # Open Playbooks Page
 open -n -a "Google Chrome" --args "https://$subdomain.vitally.io/settings/playbooks"
