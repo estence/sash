@@ -1,13 +1,13 @@
 #!/usr/bin/zsh
 
 # Reminder to ghost first
-echo "Reminder to make sure you've ghosted into the desired account before moving forward...\n"
+echo 'Reminder to make sure you'\''ve ghosted into the desired account before moving forward...\n'
 
 # Prompt for subdomain
-read "subdomain?Enter subdomain: "
+read 'subdomain?Enter subdomain: '
 
 # Delete Monthly Active Users Percentage Success Metric
-echo "\nTo add all 4 use cases, you'll need to delete the '\"'Monthly Active Users Percentage Success Metric'\"'...\n\nNavigating to Account Success Metrics page..."
+echo '\nTo add all 4 use cases, you'\''ll need to delete the Monthly Active Users Percentage Success Metric...\n\nNavigating to Account Success Metrics page...'
 open -n -a "Google Chrome" --args  "https://$subdomain.vitally.io/settings/successMetrics/accounts"
 
 # Check Success Metric Deleted
